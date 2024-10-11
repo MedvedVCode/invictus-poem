@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Rasa:wght@300..500&display=swap');
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-weight: normal;
+}
+
+html{
+	font-size: max(5.5px, 0.83333vw);
+}
+
+body {
+	min-height: 100vh;
+	font-family: Rasa, serif;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	background-color: #f0f0f0;
+	padding: 0 14.625rem;
+}
