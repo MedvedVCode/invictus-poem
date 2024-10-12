@@ -8,7 +8,7 @@ const showPoem = computed(() => {
 </script>
 
 <template>
-	<ul>
+	<ul class="poem">
 		<li
 			class="quatrain"
 			v-for="quatrain in showPoem"
@@ -20,7 +20,10 @@ const showPoem = computed(() => {
 </template>
 
 <style scoped lang="scss">
-
+.poem{
+	min-width: 290px;
+	width: 100%;
+}
 .quatrain {
 	font-size: 2.5rem;
 	line-height: 1.25;

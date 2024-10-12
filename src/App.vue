@@ -1,5 +1,5 @@
 <script setup>
-import HeaderComp from './components/HeaderComp.vue';
+import TitleComp from './components/TitleComp.vue';
 import SwitcherComp from './components/SwitcherComp.vue';
 import PoemTextComp from './components/PoemTextComp.vue';
 </script>
@@ -8,7 +8,7 @@ import PoemTextComp from './components/PoemTextComp.vue';
 	<div class="container">
 		<SwitcherComp />
 		<article>
-			<HeaderComp
+			<TitleComp
 				:title="`invictus`"
 				:author="`by william ernest henley`"
 			/>
